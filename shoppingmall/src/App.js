@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useState } from "react";
 import { TopNavigationBar } from "./components/header/topNavigationBar/topNavigationBar";
-import Home from "./all/mainAll";
+import Main from "./all/mainAll";
 import Product from "./all/productAll";
 import Cart from "./all/cartAll";
 
