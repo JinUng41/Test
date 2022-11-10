@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Hoodie",
+      "price": 990000,
+      "image": "/images/Hoodie.png"
+    },
+    {
+      "id": 2,
+      "name": "Pants",
+      "price": 1500000,
+      "image": "/images/Pants.png"
+    },
+    {
+      "id": 3,
+      "name": "Sleeve",
+      "price": 700000,
+      "image": "/images/Sleeve.png"
+    },
+    {
+      "id": 4,
+      "name": "NEWBALANCE SHOES",
+      "price": 990000,
+      "image": "/images/NEWBALANCESHOES.png"
+    },
+    {
+      "id": 5,
+      "name": "개발자 키보드",
+      "price": 99000,
+      "image": "/images/image005.png"
+    },
+    {
+      "id": 6,
+      "name": "개발자 커스텀 케이블",
+      "price": 69000,
+      "image": "/images/image006.png"
+    },
+    {
+      "id": 7,
+      "name": "문 긁는 고양이",
+      "price": 1000000,
+      "image": "/images/image007.png"
+    },
+    {
+      "id": 8,
+      "name": "우당탕탕 인테리어 책",
+      "price": 5900,
+      "image": "/images/image008.png"
+    }
+  ]
+}
