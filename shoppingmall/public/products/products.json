@@ -4,13 +4,13 @@
       "id": 1,
       "name": "Hoodie",
       "price": 990000,
-      "image": "/images/Hoodie.png"
+      "image": "/images/HOODIE.png"
     },
     {
       "id": 2,
       "name": "Pants",
       "price": 1500000,
-      "image": "/images/Pants.png"
+      "image": "/images.PANTS.png"
     },
     {
       "id": 3,
@@ -26,27 +26,51 @@
     },
     {
       "id": 5,
-      "name": "개발자 키보드",
-      "price": 99000,
-      "image": "/images/image005.png"
+      "name": "SIIIIDO HOODIE",
+      "price": 1290000,
+      "image": "/images/SIIIIDOHOODIE.png"
     },
     {
       "id": 6,
-      "name": "개발자 커스텀 케이블",
-      "price": 69000,
-      "image": "/images/image006.png"
+      "name": "HUSTLE T-SHIRTS",
+      "price": 690000,
+      "image": "/images/HUSTLETSHIRTS.png"
     },
     {
       "id": 7,
-      "name": "문 긁는 고양이",
+      "name": "GREEN PANTS",
       "price": 1000000,
-      "image": "/images/image007.png"
+      "image": "/images/GREENPANTS.png"
     },
     {
       "id": 8,
-      "name": "우당탕탕 인테리어 책",
-      "price": 5900,
-      "image": "/images/image008.png"
+      "name": "LLUD CLOG",
+      "price": 1590000,
+      "image": "/images/LLUDCLOG.png"
+    },
+    {
+      "id": 9,
+      "name": "WHITE SHIRTS",
+      "price": 1890000,
+      "image": "/images/LLUDCLOG.png"
+    },
+    {
+      "id": 10,
+      "name": "WHITE SHIRTS",
+      "price": 1590000,
+      "image": "/images/WHITESHIRTS.png"
+    },
+    {
+      "id": 11,
+      "name": "LIGHT ME UP",
+      "price": 390000,
+      "image": "/images/LIGHTMEUP.png"
+    },
+    {
+      "id": 12,
+      "name": "SWEATSHIRTS-GREY",
+      "price": 990000,
+      "image": "/images/SWEATSHIRTS.png"
     }
   ]
 }
