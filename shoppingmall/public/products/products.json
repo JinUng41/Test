@@ -52,13 +52,13 @@
       "id": 9,
       "name": "WHITE SHIRTS",
       "price": 1890000,
-      "image": "/images/LLUDCLOG.png"
+      "image": "/images/WHITESHIRTS.png"
     },
     {
       "id": 10,
-      "name": "WHITE SHIRTS",
+      "name": "WHITE T-SHIRTS",
       "price": 1590000,
-      "image": "/images/WHITESHIRTS.png"
+      "image": "/images/WHITETSHIRTS.png"
     },
     {
       "id": 11,
