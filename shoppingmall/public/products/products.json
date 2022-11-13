@@ -4,73 +4,85 @@
       "id": 1,
       "name": "Hoodie",
       "price": 990000,
-      "image": "/images/HOODIE.png"
+      "image": "/images/HOODIE.png",
+      "detail": "누구나 데일리하게 입을 수 있게 만들어진 기본적인 후드티 입니다."
     },
     {
       "id": 2,
       "name": "Pants",
       "price": 1500000,
-      "image": "/images/PANTS.png"
+      "image": "/images/Pants.png",
+      "detail": "누구나 데일리하게 입을 수 있는 바지입니다."
     },
     {
       "id": 3,
       "name": "Sleeve",
       "price": 700000,
-      "image": "/images/Sleeve.png"
+      "image": "/images/Sleeve.png",
+      "detail": "누구나 데일리하게 입을 수 있는 롱슬리브입니다. 간절기에는 겉옷으로, 추울 때는 이너로 입어보세요!"
     },
     {
       "id": 4,
       "name": "NEWBALANCE SHOES",
       "price": 990000,
-      "image": "/images/NEWBALANCESHOES.png"
+      "image": "/images/NEWBALANCESHOES.png",
+      "detail": "많은 사람들에게 인기가 많은 뉴발란스 스니커즈입니다. 캐주얼하게 매치하기 좋은 스니커즈입니다."
     },
     {
       "id": 5,
       "name": "SIIIIDO HOODIE",
       "price": 1290000,
-      "image": "/images/SIIIIDOHOODIE.png"
+      "image": "/images/SIIIIDOHOODIE.png",
+      "detail": "SIIIIDO의 야심작 후드티입니다. 전면에 TMDM 로고가 적혀있어 미니멀한 무드를 자아냅니다."
     },
     {
       "id": 6,
       "name": "HUSTLE T-SHIRTS",
       "price": 690000,
-      "image": "/images/HUSTLETSHIRTS.png"
+      "image": "/images/HUSTLETSHIRTS.png",
+      "detail": "HUSTLE 로고가 유니크한 분위기를 자아내는 반팔 티셔츠 입니다. 캐릭터 로고가 매력입니다."
     },
     {
       "id": 7,
       "name": "GREEN PANTS",
       "price": 1000000,
-      "image": "/images/GREENPANTS.png"
+      "image": "/images/GREENPANTS.png",
+      "detail": "그린색이 매력적인 바지 입니다. 항아리핏으로 떨어져 체형보완에도 탁월합니다."
     },
     {
       "id": 8,
       "name": "LLUD CLOG",
       "price": 1590000,
-      "image": "/images/LLUDCLOG.png"
+      "image": "/images/LLUDCLOG.png",
+      "detail": "LLUD의 클로그 입니다. 트렌디한 슈즈로 볼드한 쉐입이 특징입니다. 미니멀한 코디에 제격입니다."
     },
     {
       "id": 9,
       "name": "WHITE SHIRTS",
       "price": 1890000,
-      "image": "/images/WHITESHIRTS.png"
+      "image": "/images/WHITESHIRTS.png",
+      "detail": "기본적인 흰색 반팔 셔츠입니다. 더울 땐 아우터로, 추울 땐 이너로 활용해보세요!"
     },
     {
       "id": 10,
       "name": "WHITE T-SHIRTS",
       "price": 1590000,
-      "image": "/images/WHITETSHIRTS.png"
+      "image": "/images/WHITETSHIRTS.png",
+      "detail": "기본적인 화이트 티셔츠 입니다. 언제 어디서나 휘뚜루마뚜루 입기 좋습니다."
     },
     {
       "id": 11,
       "name": "LIGHT ME UP",
       "price": 390000,
-      "image": "/images/LIGHTMEUP.png"
+      "image": "/images/LIGHTMEUP.png",
+      "detail": "Light Me Up 문구가 적혀있는 감성있는 성냥입니다. 남들과는 다르게 불을 켜고 싶을 때 이용하세요!"
     },
     {
       "id": 12,
       "name": "SWEATSHIRTS-GREY",
       "price": 990000,
-      "image": "/images/SWEATSHIRTS.png"
+      "image": "/images/SWEATSHIRTS.png",
+      "detail": "누구나 기본적으로 입을 수 있는 스웻셔츠입니다. 편하게 다닐 때에는 스웻셔츠로 컴포트함과 캐주얼함을 가져가세요!"
     }
   ]
 }
