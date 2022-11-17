@@ -1,12 +1,12 @@
 .menu_header {
-    display: fixed;
+    /* display: fixed; */
     margin: 0;
     padding:0;
 }
 
 .menu_header ul {
     display: inline-block;
-    margin: 0;
+    
 }
 
 .menu_header ul li {
@@ -17,17 +17,19 @@
 
 .category {
     font : normal normal 20px Times New Roman;
-    padding: 40px 80px 0px 30px;
+    padding: 0px 380px 0px 30px;
 }
 .personal {
     font : normal normal 20px Times New Roman;
-    padding: 40px 0px 0px 200px;
+    padding: 0px 0px 0px 380px;
 }
-.main_title {
+#main_title {
     font : normal normal 50px Times New Roman;
-    text-shadow: 3px 3px 3px black;
-    padding: 40px 100px 0px 70px;
+    text-shadow: 3px 3px 2px black;
     text-align: center;
-
+    font-weight: 900;
+    font : normal normal 50px Times New Roman;
+    color: black;
+    padding: 0px 0px 50px 0px; 
 }
 
