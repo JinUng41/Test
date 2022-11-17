@@ -9,12 +9,16 @@ import { useState } from "react";
 import Start from "./components/start/start";
 import Main from "./components/main/main";
 
-const App = () => (
-  <Routes>
-    <Route path="/" element={<Start />} />
-    <Route path="/main" element={<Main />} />
-  </Routes>
-);
+function App() {
+  const [cart, setCart] = useState([]);
+
+  return (
+    <Routes>
+      <Route path="/" element={<Start />} />
+      <Route path="/main" element={<Main />} />
+    </Routes>
+  )
+}
 
 export default App;
 
