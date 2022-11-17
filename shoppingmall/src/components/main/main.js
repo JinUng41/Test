@@ -1,18 +1,20 @@
 import "./main.css"
-import {Fragment} from 'react';
 import Header from "../header/header";
 import {Product} from "../product/product";
+import {useEffect} from "react";
 import productList from "../../products/products";
 
 const Main = ({products, setProducts}) => {
-    console.log(productList)
+    const productslist = productList
+    
+    
     return (
         <>
             <Header />
-            {products.map((product) => {
+            {productslist.map((product) => {
                 return (
                     <Product 
-                        id={`id:${product.id}`}
+                        key={`id:${product.id}`}
                         product={product}
                     />
                 );
