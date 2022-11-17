@@ -2,7 +2,6 @@ import "./header.css"
 import {Fragment} from 'react';
 import {Product} from "../product/product"
 
-<<<<<<< Updated upstream
 const Header = ({convertMenu, products, setProducts}) => {
     const sortProduct = (type) => {
         if (type === "All") {
@@ -31,10 +30,6 @@ const Header = ({convertMenu, products, setProducts}) => {
     return (
     <>
     <div className="header">
-=======
-const Header = () => (
-    <>
->>>>>>> Stashed changes
     
     <h1 id="main_title">Exception;</h1>
         <ul className="menu_header">
@@ -54,14 +49,9 @@ const Header = () => (
         
 
     
-<<<<<<< Updated upstream
     </div>
     </>
     );
 };
-=======
-    </>
-);
->>>>>>> Stashed changes
 
 export default Header;
