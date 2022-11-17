@@ -11,11 +11,16 @@ import Main from "./components/main/main";
 
 function App() {
   const [cart, setCart] = useState([]);
+  const [products, setProducts] = useState([]);
 
   return (
     <Routes>
       <Route path="/" element={<Start />} />
-      <Route path="/main" element={<Main />} />
+      <Route path="/main" element={
+        <Main 
+          products={products}
+          setProducts={setProducts}
+        />} />
     </Routes>
   )
 }
