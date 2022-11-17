@@ -17,16 +17,16 @@
 
 .category {
     font : normal normal 20px Times New Roman;
-    padding: 60px 80px 0px 70px;
+    padding: 40px 80px 0px 30px;
 }
 .personal {
     font : normal normal 20px Times New Roman;
-    padding: 60px 0px 0px 200px;
+    padding: 40px 0px 0px 200px;
 }
 .main_title {
     font : normal normal 50px Times New Roman;
     text-shadow: 3px 3px 3px black;
-    padding: 60px 100px 0px 100px;
+    padding: 40px 100px 0px 70px;
     text-align: center;
 
 }
