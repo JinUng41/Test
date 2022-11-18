@@ -4,85 +4,129 @@
       "id": 1,
       "name": "Hoodie",
       "price": 990000,
-      "image": "/images/HOODIE.png",
-      "detail": "누구나 데일리하게 입을 수 있게 만들어진 기본적인 후드티 입니다."
+      "image": "../../../public/images/productImage/Hoodie.png",
+      "detail": "누구나 데일리하게 입을 수 있게 만들어진 기본적인 후드티 입니다.",
+      "category": "Top"
     },
     {
       "id": 2,
       "name": "Pants",
       "price": 1500000,
-      "image": "/images/Pants.png",
-      "detail": "누구나 데일리하게 입을 수 있는 바지입니다."
+      "image": "../../../public/images/productImage/Pants.png",
+      "detail": "누구나 데일리하게 입을 수 있는 바지입니다.",
+      "category": "Bottom"
     },
     {
       "id": 3,
       "name": "Sleeve",
       "price": 700000,
-      "image": "/images/Sleeve.png",
-      "detail": "누구나 데일리하게 입을 수 있는 롱슬리브입니다. 간절기에는 겉옷으로, 추울 때는 이너로 입어보세요!"
+      "image": "../../../public/images/productImage/Sleeve.png",
+      "detail": "누구나 데일리하게 입을 수 있는 롱슬리브입니다. 간절기에는 겉옷으로, 추울 때는 이너로 입어보세요!",
+      "category": "Top"
     },
     {
       "id": 4,
       "name": "NEWBALANCE SHOES",
       "price": 990000,
-      "image": "/images/NEWBALANCESHOES.png",
-      "detail": "많은 사람들에게 인기가 많은 뉴발란스 스니커즈입니다. 캐주얼하게 매치하기 좋은 스니커즈입니다."
+      "image": "../../../public/images/productImage/NEWBALANCESHOES.png",
+      "detail": "많은 사람들에게 인기가 많은 뉴발란스 스니커즈입니다. 캐주얼하게 매치하기 좋은 스니커즈입니다.",
+      "category": "Acc"
     },
     {
       "id": 5,
       "name": "SIIIIDO HOODIE",
       "price": 1290000,
-      "image": "/images/SIIIIDOHOODIE.png",
-      "detail": "SIIIIDO의 야심작 후드티입니다. 전면에 TMDM 로고가 적혀있어 미니멀한 무드를 자아냅니다."
+      "image": "../../../public/images/productImage/SIIIIDOHOODIE.png",
+      "detail": "SIIIIDO의 야심작 후드티입니다. 전면에 TMDM 로고가 적혀있어 미니멀한 무드를 자아냅니다.",
+      "category": "Top"
     },
     {
       "id": 6,
       "name": "HUSTLE T-SHIRTS",
       "price": 690000,
-      "image": "/images/HUSTLETSHIRTS.png",
-      "detail": "HUSTLE 로고가 유니크한 분위기를 자아내는 반팔 티셔츠 입니다. 캐릭터 로고가 매력입니다."
+      "image": "../../../public/images/productImage/HUSTLETSHIRTS.png",
+      "detail": "HUSTLE 로고가 유니크한 분위기를 자아내는 반팔 티셔츠 입니다. 캐릭터 로고가 매력입니다.",
+      "category": "Top"
     },
     {
       "id": 7,
       "name": "GREEN PANTS",
       "price": 1000000,
-      "image": "/images/GREENPANTS.png",
-      "detail": "그린색이 매력적인 바지 입니다. 항아리핏으로 떨어져 체형보완에도 탁월합니다."
+      "image": "../../../public/images/productImage/GREENPANTS.png",
+      "detail": "그린색이 매력적인 바지 입니다. 항아리핏으로 떨어져 체형보완에도 탁월합니다.",
+      "category": "Bottom"
     },
     {
       "id": 8,
       "name": "LLUD CLOG",
       "price": 1590000,
-      "image": "/images/LLUDCLOG.png",
-      "detail": "LLUD의 클로그 입니다. 트렌디한 슈즈로 볼드한 쉐입이 특징입니다. 미니멀한 코디에 제격입니다."
+      "image": "../../../public/images/productImage/LLUDCLOG.png",
+      "detail": "LLUD의 클로그 입니다. 트렌디한 슈즈로 볼드한 쉐입이 특징입니다. 미니멀한 코디에 제격입니다.",
+      "category": "Acc"
     },
     {
       "id": 9,
       "name": "WHITE SHIRTS",
       "price": 1890000,
-      "image": "/images/WHITESHIRTS.png",
-      "detail": "기본적인 흰색 반팔 셔츠입니다. 더울 땐 아우터로, 추울 땐 이너로 활용해보세요!"
+      "image": "../../../public/images/productImage/WHITESHIRTS.png",
+      "detail": "기본적인 흰색 반팔 셔츠입니다. 더울 땐 아우터로, 추울 땐 이너로 활용해보세요!",
+      "category": "Top"
     },
     {
       "id": 10,
       "name": "WHITE T-SHIRTS",
       "price": 1590000,
-      "image": "/images/WHITETSHIRTS.png",
-      "detail": "기본적인 화이트 티셔츠 입니다. 언제 어디서나 휘뚜루마뚜루 입기 좋습니다."
+      "image": "../../../public/images/productImage/WHITETSHIRTS.png",
+      "detail": "기본적인 화이트 티셔츠 입니다. 언제 어디서나 휘뚜루마뚜루 입기 좋습니다.",
+      "category": "Top"
     },
     {
       "id": 11,
       "name": "LIGHT ME UP",
       "price": 390000,
-      "image": "/images/LIGHTMEUP.png",
-      "detail": "Light Me Up 문구가 적혀있는 감성있는 성냥입니다. 남들과는 다르게 불을 켜고 싶을 때 이용하세요!"
+      "image": "../../../public/images/productImage/LIGHTMEUP.png",
+      "detail": "Light Me Up 문구가 적혀있는 감성있는 성냥입니다. 남들과는 다르게 불을 켜고 싶을 때 이용하세요!",
+      "category": "Acc"
     },
     {
       "id": 12,
       "name": "SWEATSHIRTS-GREY",
       "price": 990000,
-      "image": "/images/SWEATSHIRTS.png",
-      "detail": "누구나 기본적으로 입을 수 있는 스웻셔츠입니다. 편하게 다닐 때에는 스웻셔츠로 컴포트함과 캐주얼함을 가져가세요!"
+      "image": "../../../public/images/productImage/SWEATSHIRTS.png",
+      "detail": "누구나 기본적으로 입을 수 있는 스웻셔츠입니다. 편하게 다닐 때에는 스웻셔츠로 컴포트함과 캐주얼함을 가져가세요!",
+      "category": "Top"
+    },
+    {
+      "id": 13,
+      "name": "BLUE OUTER",
+      "price": 1990000,
+      "image": "../../../public/images/productImage/BLUEOUTER.png",
+      "detail": "파란 색감이 인상적인 블루종입니다. 크롭한 기장 덕분에 다리가 길어보이는 효과가 있습니다.",
+      "category": "Outer"
+    },
+    {
+      "id": 14,
+      "name": "KNIT ZIPUP",
+      "price": 2190000,
+      "image": "../../../public/images/productImage/KNITZIPUP.png",
+      "detail": "니트소재로 된 집업입니다.",
+      "category": "Outer"
+    },
+    {
+      "id": 15,
+      "name": "HOODIE-ZIPUP",
+      "price": 1290000,
+      "image": "../../../public/images/productImage/HOODIEZIPUP.png",
+      "detail": "누구나 기본적으로 입을 수 있는 후드집업입니다.",
+      "category": "Outer"
+    },
+    {
+      "id": 16,
+      "name": "RIDERJACKET",
+      "price": 1590000,
+      "image": "../../../public/images/productImage/RIDERJACKET.png",
+      "detail": "크롭한 기장이 매력적인 라이더자켓입니다.",
+      "category": "Outer"
     }
   ]
 }
