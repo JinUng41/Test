@@ -3,29 +3,29 @@ import {Fragment} from 'react';
 import {Product} from "../product/product"
 
 const Header = ({convertMenu, products, setProducts}) => {
-    const sortProduct = (type) => {
-        if (type === "All") {
-        const newProduct = [...products];
-        newProduct.sort((a, b) => a.id - b.id);
-        setProducts(newProduct);
-        } else if (type === "Outer") {
-        const newProduct = [...products];
-        newProduct.sort((a, b) => a.price - b.price);
-        setProducts(newProduct);
-        } else if (type === "Top") {
-        const newProduct = [...products];
-        newProduct.sort((a, b) => b.price - a.price);
-        setProducts(newProduct);
-        } else if (type === "Bottom") {
-        const newProduct = [...products];
-        newProduct.sort((a, b) => b.price - a.price);
-        setProducts(newProduct);
-        } else if (type === "Acc") {
-        const newProduct = [...products];
-        newProduct.sort((a, b) => b.price - a.price);
-        setProducts(newProduct);
-        } 
-    };
+    // const sortProduct = (type) => {
+    //     if (type === "All") {
+    //     const newProduct = [...products];
+    //     newProduct.sort((a, b) => a.id - b.id);
+    //     setProducts(newProduct);
+    //     } else if (type === "Outer") {
+    //     const newProduct = [...products];
+    //     newProduct.sort((a, b) => a.price - b.price);
+    //     setProducts(newProduct);
+    //     } else if (type === "Top") {
+    //     const newProduct = [...products];
+    //     newProduct.sort((a, b) => b.price - a.price);
+    //     setProducts(newProduct);
+    //     } else if (type === "Bottom") {
+    //     const newProduct = [...products];
+    //     newProduct.sort((a, b) => b.price - a.price);
+    //     setProducts(newProduct);
+    //     } else if (type === "Acc") {
+    //     const newProduct = [...products];
+    //     newProduct.sort((a, b) => b.price - a.price);
+    //     setProducts(newProduct);
+    //     } 
+    // };
 
     return (
     <>
@@ -34,11 +34,16 @@ const Header = ({convertMenu, products, setProducts}) => {
     <h1 id="main_title">Exception;</h1>
         <ul className="menu_header">
             <ul className="category">
-                <li onClick={() => sortProduct("All")}>All</li>
+                {/* <li onClick={() => sortProduct("All")}>All</li>
                 <li onClick={() => sortProduct("Outer")}>Outer</li>
                 <li onClick={() => sortProduct("Top")}>Top</li>
                 <li onClick={() => sortProduct("Bottom")}>Bottom</li>
-                <li onClick={() => sortProduct("Acc")}>Acc</li>
+                <li onClick={() => sortProduct("Acc")}>Acc</li> */}
+                <li>All</li>
+                <li>Outer</li>
+                <li>Top</li>
+                <li>Bottom</li>
+                <li>Acc</li>
             </ul>
 
             <ul className="personal">
