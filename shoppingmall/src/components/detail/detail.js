@@ -1,4 +1,4 @@
-import styles from "./detail.module.css";
+import styles from "./detail.css";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getProducts } from "../../service/fetcher";
