@@ -1,8 +1,11 @@
+
 .menu_header {
     display: inline-block;
     /* margin: 100; */
     margin-bottom: 100px;
     padding:0;
+    margin: 0;
+    background-color: aliceblue;
 }
 
 .menu_header ul {
@@ -30,12 +33,12 @@
     right : 100px;
 }
 #main_title {
-    font : normal normal 50px Times New Roman;
     text-shadow: 3px 3px 2px black;
-    text-align: center;
+    /* text-align: center; */
     font-weight: 900;
     font : normal normal 50px Times New Roman;
     color: black;
-    /* padding: 0px 0px 50px 0px;  */
+    position: fixed;
+    top: 0px;
 }
 

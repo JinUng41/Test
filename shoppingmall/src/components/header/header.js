@@ -40,8 +40,6 @@ const Header = ({convertMenu, products, setProducts}) => {
       }, [setProducts]);
 
     return (
-    <>
-    <div className="header">
     
         <div className="menu_header">
             <h1 id="main_title">Exception;</h1>
@@ -57,13 +55,9 @@ const Header = ({convertMenu, products, setProducts}) => {
             <ul className="personal">
                 <li>Order</li>
                 <li>Login</li>
-            </ul>
+            </ul>    
         </div>
-        
-
     
-    </div>
-    </>
     );
 };
 
