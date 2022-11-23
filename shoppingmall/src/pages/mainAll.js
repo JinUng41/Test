@@ -1,10 +1,10 @@
 import { Main } from "../components/main/main";
 
-const MainAll = ({product, setProduct}) => {
+const MainAll = ({products, setProducts}) => {
     return (
         <Main
-            product = {product}
-            setProduct = {setProduct}
+            products = {products}
+            setProducts = {setProducts}
         />
     );
 };

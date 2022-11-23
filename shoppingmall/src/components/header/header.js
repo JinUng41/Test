@@ -35,7 +35,7 @@ const Header = ({convertMenu, products, setProducts}) => {
 
      useEffect(() => {
         getProducts().then((data) => {
-          setProducts(data.data.products);
+          setProducts(data.products.products);
         });
       }, [setProducts]);
     return (

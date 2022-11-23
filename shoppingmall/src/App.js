@@ -8,6 +8,7 @@ import { useState } from "react";
 
 import Start from "./components/start/start";
 import Main from "./components/main/main";
+import MainAll from "./pages/mainAll";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -15,12 +16,10 @@ function App() {
 
   return (
     <Routes>
-      <Route exact path="/" element={<Start />} />
+      <Route path="/" element={<Start />} />
       <Route path="/main" element={
-        <Main 
-          products={products}
-          setProducts={setProducts}
-        />} />
+        <MainAll products={products} setProducts={setProducts}/>
+        } />
     </Routes>
   )
 }
