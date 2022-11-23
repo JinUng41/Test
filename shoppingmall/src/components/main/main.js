@@ -2,16 +2,22 @@ import "./main.css"
 import Header from "../header/header";
 import {Product} from "../product/product";
 import {useEffect} from "react";
-import productList from "../../products/products";
+import {getProducts} from "../../service/fetcher";
+import axios from "axios";
 
-const Main = ({products, setProducts}) => {
-    const productslist = productList
+export const Main = ({products, setProducts}) => {
     
-    
+    useEffect(() => {
+        getProducts().then((data) => {
+            setProducts(data.data.products)
+        });
+    }, []);
+
     return (
         <>
-            <Header />
-            {productslist.map((product) => {
+            <Header /> 
+            <main className="productBlock">
+             {products.map((product) => {
                 return (
                     <Product 
                         key={`id:${product.id}`}
@@ -19,8 +25,8 @@ const Main = ({products, setProducts}) => {
                     />
                 );
             })}
+            </main>
         </>
     );
 };
 
-export default Main;
