@@ -2,7 +2,7 @@ import "./header.css"
 import { useEffect } from "react";
 //import {Fragment} from 'react';
 //import {Product} from "../product/product"
-import { getProducts } from "../../service/fetcher.js";
+import { getProducts } from "../../service/fetcher";
 
 const Header = ({convertMenu, products, setProducts}) => {
     const sortProduct = (type) => {
@@ -35,9 +35,10 @@ const Header = ({convertMenu, products, setProducts}) => {
 
      useEffect(() => {
         getProducts().then((data) => {
-          setProducts(data.products.products);
+          setProducts(data.data.products);
         });
       }, [setProducts]);
+
     return (
     <>
     <div className="header">

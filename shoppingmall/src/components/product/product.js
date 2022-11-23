@@ -7,7 +7,7 @@ export const Product = ({product}) => {
         <div>
             <Link to={`/product/${id}`}></Link>
             <div>{name}</div>
-            <div>{price}이건 가격</div>
+            <div>{price}원</div>
         </div>
     ));
 };

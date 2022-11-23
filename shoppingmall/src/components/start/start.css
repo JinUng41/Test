@@ -30,7 +30,7 @@
 }
 
 body {
-    background-image: url('../../../public/images/backgroundimage/startbackgroundimage.png');
+    /* background-image: url('../../../public/images/backgroundimage/startbackgroundimage.png'); */
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
