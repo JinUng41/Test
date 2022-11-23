@@ -16,7 +16,7 @@ export const Main = ({products, setProducts}) => {
     return (
         <>
             <Header /> 
-            <main>
+            <main className="productBlock">
              {products.map((product) => {
                 return (
                     <Product 

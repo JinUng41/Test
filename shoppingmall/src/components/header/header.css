@@ -1,12 +1,13 @@
 .menu_header {
-    /* display: fixed; */
-    margin: 0;
+    display: inline-block;
+    /* margin: 100; */
+    margin-bottom: 100px;
     padding:0;
 }
 
 .menu_header ul {
-    display: inline-block;
-    
+    display: inline-block;  
+    padding: 0;  
 }
 
 .menu_header ul li {
@@ -17,11 +18,16 @@
 
 .category {
     font : normal normal 20px Times New Roman;
-    padding: 0px 380px 0px 30px;
+    /* padding: 0px 380px 0px 30px; */
+    position: fixed;
+    left : 100px;
+
 }
 .personal {
     font : normal normal 20px Times New Roman;
-    padding: 0px 0px 0px 380px;
+    /* padding: 0px 0px 0px 380px; */
+    position: fixed;
+    right : 100px;
 }
 #main_title {
     font : normal normal 50px Times New Roman;
@@ -30,6 +36,6 @@
     font-weight: 900;
     font : normal normal 50px Times New Roman;
     color: black;
-    padding: 0px 0px 50px 0px; 
+    /* padding: 0px 0px 50px 0px;  */
 }
 
