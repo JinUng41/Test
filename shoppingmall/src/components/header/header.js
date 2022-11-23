@@ -53,7 +53,6 @@ const Header = ({convertMenu, products, setProducts}) => {
             </ul>
 
             <ul className="personal">
-                <li className="cart">Cart</li>
                 <li>Order</li>
                 <li>Login</li>
             </ul>    
