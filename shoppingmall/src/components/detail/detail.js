@@ -1,4 +1,3 @@
-import styles from "./detail.css";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getProducts } from "../../service/fetcher";
@@ -41,7 +40,6 @@ const handleCart = () => {
     name: product.name,
     quantity: count,
     price: product.price,
-    provider: product.provider,
     detail: product.detail
     };
     const found = cart.find((el) => el.id === cartItem.id);
@@ -60,75 +58,74 @@ useEffect(() => {
 return (
     product && (
     <>
-        <main className={styles.main}>
-        <section className={styles.product}>
-            <div className={styles.product_img}>
+        <main className="main">
+        <section className="product">
+            <div className="productImg">
             <img src={product.image} alt="product" />
             </div>
         </section>
-        <section className={styles.product}>
-            <div className={styles.product_info}>
-            <p className={styles.seller_store}>{product.provider}</p>
-            <p className={styles.product_name}>{product.name}</p>
-            <span className={styles.price}>
+        <section className="product">
+            <div className="productInfo">
+            <p className="productName">{product.name}</p>
+            <span className="price">
                 {convertPrice(product.price + "")}
-                KRW <span className={styles.unit}></span>
+                KRW <span className="unit"></span>
                 <br></br>
                 <br></br>
-                <div className={styles.detaill}>
+                <div className="detail">
                 {product.detail}
                 </div>
             </span>
             </div>
 
-            <div className={styles.delivery}>
+            <div className="delivery">
             <p>택배배송 / 무료배송</p>
             </div>
 
-            <div className={styles.line}></div>
+            <div className="line"></div>
 
-            <div className={styles.amount}>
+            <div className="amount">
             <img
-                className={styles.minus}
-                src="/images/icon-minus-line.svg"
+                className="minus"
+                src="/images/iconImage/minus.png"
                 alt="minus"
                 onClick={() => handleQuantity("minus")}
             />
 
-            <div className={styles.count}>
+            <div className="count">
                 <span>{count}</span>
             </div>
 
             <img
-                className={styles.plus}
-                src="/images/icon-plus-line.svg"
+                className="plus"
+                src="/images/iconImage/plus.png"
                 alt="plus"
                 onClick={() => handleQuantity("plus")}
             />
             </div>
 
-            <div className={styles.line}></div>
+            <div className="line"></div>
 
-            <div className={styles.sum}>
+            <div className="sum">
             <div>
-                <span className={styles.sum_price}>총 상품 금액</span>
+                <span className="sumPrice">총 상품 금액</span>
             </div>
 
-            <div className={styles.total_info}>
-                <span className={styles.total}>
-                총 수량 <span className={styles.total_count}>{count}개</span>
+            <div className="totalInfo">
+                <span className="total">
+                총 수량 <span className="totalCount">{count}개</span>
                 </span>
-                <span className={styles.total_price}>
+                <span className="totalPrice">
                   {convertPrice(product.price * count)}
-                KRW<span className={styles.total_unit}></span>
+                KRW<span className="totalUnit"></span>
                 </span>
             </div>
             </div>
 
-            <div className={styles.btn}>
-            <button className={styles.btn_buy}>Buy Now!</button>
+            <div className="btn">
+            <button className="btnBuy">Buy Now!</button>
             <button
-                className={styles.btn_cart}
+                className="btnCart"
                 onClick={() => {
                 handleCart();
                 }}
