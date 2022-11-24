@@ -21,6 +21,7 @@
 }
 
 .category {
+    cursor: pointer;
     font : normal normal 20px Times New Roman;
     /* padding: 0px 380px 0px 30px; */
     position: fixed;
@@ -28,7 +29,13 @@
     top: -10px;
 
 }
+
+.menu_header ul li:hover {
+    text-decoration: underline;
+}
+
 .personal {
+    cursor: pointer;
     font : normal normal 20px Times New Roman;
     /* padding: 0px 0px 0px 380px; */
     position: fixed;
@@ -37,6 +44,7 @@
 }
 
 .main_title {
+    cursor: pointer;
     text-shadow: 3px 3px 2px black;
     text-align: center;
     font : normal normal 35px Times New Roman;
