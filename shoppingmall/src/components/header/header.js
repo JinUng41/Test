@@ -7,30 +7,37 @@ import { getProducts } from "../../service/fetcher";
 const Header = ({convertMenu, products, setProducts}) => {
     const sortProduct = (type) => {
         if (type === "All") {
-        const newProduct = [...products];
-        //newProduct.sort((a, b) => a.id - b.id); 
-        setProducts(newProduct);
-         } else if (type === "Outer") {
-         const newProduct = [...products];
-        //newProduct.sort((a, b) => a.price - b.price);
-        newProduct.filter(products.category==="Outer")
-         setProducts(newProduct);
-         } else if (type === "Top") {
-         const newProduct = [...products];
-        //newProduct.sort((a, b) => b.price - a.price);
-        newProduct.filter(products.category==="Top")
-         setProducts(newProduct);
-         } else if (type === "Bottom") {
-         const newProduct = [...products];
-        //newProduct.sort((a, b) => b.price - a.price);
-        newProduct.filter(products.category==="Bottom")
-         setProducts(newProduct);
-         } else if (type === "Acc") {
-         const newProduct = [...products];
-         //newProduct.sort((a, b) => b.price - a.price);
-         newProduct.filter(products.category==="Acc")
-         setProducts(newProduct);
-         } 
+            const newProduct = [...products];
+            setProducts(newProduct);
+        } 
+        else if (type === "Outer") {
+            const newProduct = [...products];
+            const result = newProduct.filter(product => product.category==="Outer")
+            setProducts(result);
+            console.log(result);
+        } 
+        else if (type === "Top") {
+            const newProduct = [...products];
+            const result = newProduct.filter(product => product.category==="Top")
+            setProducts(result);
+            console.log(result);
+
+        } 
+        else if (type === "Bottom") {
+            const newProduct = [...products];
+            const result = newProduct.filter(product => product.category==="Bottom")
+            setProducts(result);
+            console.log(result);
+
+        } 
+        else if (type === "Acc") {
+            const newProduct = [...products];
+            const result = newProduct.filter(product => product.category.includes("Acc"))
+            setProducts(result);
+            console.log(result);
+            console.log(newProduct);
+            console.log(...products);
+        } 
      };
 
      useEffect(() => {
@@ -39,25 +46,22 @@ const Header = ({convertMenu, products, setProducts}) => {
         });
       }, [setProducts]);
 
-    return (
-    
+    return ( 
         <div className="menu_header">
             <div className="main_title">Exception;</div>
-
             <ul className="category">
-                <li onClick={() => sortProduct("All")}>All</li>
-                <li onClick={() => sortProduct("Outer")}>Outer</li>
-                <li onClick={() => sortProduct("Top")}>Top</li>
-                <li onClick={() => sortProduct("Bottom")}>Bottom</li>
-                <li onClick={() => sortProduct("Acc")}>Acc</li> 
+                <li><span onClick={() => sortProduct("All")}>All</span></li>
+                <li><span onClick={() => sortProduct("Outer")}>Outer</span></li>
+                <li><span onClick={() => sortProduct("Top")}>Top</span></li>
+                <li><span onClick={() => sortProduct("Bottom")}>Bottom</span></li>
+                <li><span onClick={() => sortProduct("Acc")}>Acc</span></li>
             </ul>
 
             <ul className="personal">
                 <li>Order</li>
                 <li>Login</li>
             </ul>    
-        </div>
-    
+        </div>   
     );
 };
 
