@@ -37,7 +37,7 @@ const Header = ({products, setProducts}) => {
                 break;
         }
 
-
+//
         // if (type === "All") {
         //     setProducts(newProduct);
         // } 
