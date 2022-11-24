@@ -15,12 +15,12 @@ export const Main = ({products, setProducts}) => {
 
     return (
         <>
-            <Header /> 
+            <Header products={products} setProducts={setProducts}/> 
             <main className="productBlock">
              {products.map((product) => {
                 return (
                     <Product 
-                        key={`id:${product.id}`}
+                        key={`key-${product.id}`}
                         product={product}
                     />
                 );
