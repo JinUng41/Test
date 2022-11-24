@@ -5,7 +5,7 @@ import {useEffect} from "react";
 import {getProducts} from "../../service/fetcher";
 import axios from "axios";
 
-export const Main = ({products, setProducts}) => {
+export const Main = ({convertPrice, products, setProducts}) => {
     
     useEffect(() => {
         getProducts().then((data) => {
@@ -17,11 +17,12 @@ export const Main = ({products, setProducts}) => {
         <>
             <Header products={products} setProducts={setProducts}/> 
             <main className="productBlock">
-             {products.map((product) => {
+            {products.map((product) => {
                 return (
                     <Product 
                         key={`key-${product.id}`}
                         product={product}
+                        convertPrice = {convertPrice}
                     />
                 );
             })}

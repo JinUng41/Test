@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./product.css"
-export const Product = ({product}) => {
+export const Product = ({product, convertPrice}) => {
     const { id, name, price, image} = product;
 
     return ( product && (
@@ -9,7 +9,7 @@ export const Product = ({product}) => {
                 <div className="productImg"><img src={image} alt=""/></div>
             </Link>
             <div className="productName">{name}</div>
-            <div className="productPrice">{price}원</div>
+            <div className="productPrice">{convertPrice(price)}원</div>
         </div>
     ));
 };

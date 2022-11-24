@@ -18,7 +18,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Start />} />
       <Route path="/main" element={
-          <MainAll products={products} setProducts={setProducts}/>
+          <MainAll convertPrice={convertPrice} products={products} setProducts={setProducts}/>
         } />
       <Route 
         path="/product/:id" 
