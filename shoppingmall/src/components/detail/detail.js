@@ -81,27 +81,25 @@ return (
             <div className="delivery">
             <p>택배배송 / 무료배송</p>
             </div>
-
             <div className="line"></div>
-
             <div className="amount">
-            <img
-                className="minus"
-                src="/images/iconImage/minus.png"
-                alt="minus"
-                onClick={() => handleQuantity("minus")}
-            />
+                <img
+                    className="minus"
+                    src="/images/iconImage/minus.png"
+                    alt="minus"
+                    onClick={() => handleQuantity("minus")}
+                />
 
-            <div className="count">
-                <span>{count}</span>
-            </div>
+                <div className="count">
+                    <span>{count}</span>
+                </div>
 
-            <img
-                className="plus"
-                src="/images/iconImage/plus.png"
-                alt="plus"
-                onClick={() => handleQuantity("plus")}
-            />
+                <img
+                    className="plus"
+                    src="/images/iconImage/plus.png"
+                    alt="plus"
+                    onClick={() => handleQuantity("plus")}
+                />
             </div>
 
             <div className="line"></div>
