@@ -1,12 +1,12 @@
-import { Detail } from "../components/detail/detail";
+// import { Detail } from "../components/detail/detail";
 
-const ProductAll = ({cart, setCart}) => {
-    return (
-    <Detail
-        cart = {cart}
-        setCart = {setCart}
+// const ProductAll = ({cart, setCart}) => {
+//     return (
+//     <Detail
+//         cart = {cart}
+//         setCart = {setCart}
 
-    />);
-};
+//     />);
+// };
 
-export default ProductAll;
+// export default ProductAll;

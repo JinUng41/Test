@@ -1,12 +1,12 @@
 
 .menu_header {
     /* display: inline-block; */
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     padding:0;
     margin: 0;
     position: fixed;
     width: 100%;
-    height: 100px;
+    height: 50px;
     background-color: rgba( 255, 255, 255, 0.9);    
 }
 
@@ -18,7 +18,7 @@
 .menu_header ul li {
     display: inline-block;
     list-style-type: none;
-    padding: 10px 20px;
+    padding: 2px 15px;
 }
 
 .category {
@@ -26,7 +26,7 @@
     /* padding: 0px 380px 0px 30px; */
     position: fixed;
     left : 100px;
-    top: 10px;
+    top: -10px;
 
 }
 .personal {
@@ -34,19 +34,168 @@
     /* padding: 0px 0px 0px 380px; */
     position: fixed;
     right : 100px;
-    top: 10px;
-
+    top: -10px;
 }
-#main_title {
+
+.main_title {
     text-shadow: 3px 3px 2px black;
-    /* text-align: center; */
-    font-weight: 900;
-    font : normal normal 50px Times New Roman;
+    text-align: center;
+    font : normal normal 35px Times New Roman;
     color: black;
     position: fixed;
-    top: -15px;
     left:40%;
     right:40%;
-    
 }
 
+
+@media (max-width: 1024px) {
+    .menu_header {
+        /* display: inline-block; */
+        /* margin-bottom: 100px; */
+        padding:0;
+        margin: 0;
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        background-color: rgba( 255, 255, 255, 0.9);    
+    }
+    
+    .menu_header ul {
+        display: inline-block;  
+        padding: 0;  
+    }
+    
+    .menu_header ul li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 2px 6px;
+    }
+    
+    .category {
+        font : normal normal 19px Times New Roman;
+        /* padding: 0px 380px 0px 30px; */
+        position: fixed;
+        left : 50px;
+        top: -9px;
+    
+    }
+    .personal {
+        font : normal normal 19px Times New Roman;
+        /* padding: 0px 0px 0px 380px; */
+        position: fixed;
+        right : 50px;
+        top: -9px;
+    }
+    
+    .main_title {
+        text-shadow: 3px 3px 2px black;
+        text-align: center;
+        font : normal normal 35px Times New Roman;
+        color: black;
+        position: fixed;
+        left:40%;
+        right:40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu_header {
+        /* display: inline-block; */
+        /* margin-bottom: 100px; */
+        padding:0;
+        margin: 0;
+        position: fixed;
+        width: 100%;
+        height: 40px;
+        background-color: rgba( 255, 255, 255, 0.9);    
+    }
+    
+    .menu_header ul {
+        display: inline-block;  
+        padding: 0;  
+    }
+    
+    .menu_header ul li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 2px 5px;
+    }
+    
+    .category {
+        font : normal normal 13px Times New Roman;
+        /* padding: 0px 380px 0px 30px; */
+        position: fixed;
+        left : 10px;
+        top: -3px;
+    
+    }
+    .personal {
+        font : normal normal 13px Times New Roman;
+        /* padding: 0px 0px 0px 380px; */
+        position: fixed;
+        right : 10px;
+        top: -3px;
+    }
+    
+    .main_title {
+        text-shadow: 2px 2px 1px black;
+        text-align: center;
+        font : normal normal 25px Times New Roman;
+        color: black;
+        position: fixed;
+        left:40%;
+        right:40%;
+        top: 1px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu_header {
+        /* display: inline-block; */
+        /* margin-bottom: 100px; */
+        padding:0;
+        margin: 0;
+        position: fixed;
+        width: 100%;
+        height: 40px;
+        background-color: rgba( 255, 255, 255, 0.9);    
+    }
+    
+    .menu_header ul {
+        display: inline-block;  
+        padding: 0;  
+    }
+    
+    .menu_header ul li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 2px 4px;
+    }
+    
+    .category {
+        font : normal normal 11px Times New Roman;
+        /* padding: 0px 380px 0px 30px; */
+        position: fixed;
+        left : 5px;
+        top: -1px;
+    
+    }
+    .personal {
+        font : normal normal 11px Times New Roman;
+        /* padding: 0px 0px 0px 380px; */
+        position: fixed;
+        right : 5px;
+        top: -1px;
+    }
+    
+    .main_title {
+        text-shadow: 2px 2px 1px black;
+        text-align: center;
+        font : normal normal 20px Times New Roman;
+        color: black;
+        position: fixed;
+        left:40%;
+        right:40%;
+        top: 1px;
+    }
+}

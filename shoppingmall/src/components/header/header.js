@@ -42,7 +42,7 @@ const Header = ({convertMenu, products, setProducts}) => {
     return (
     
         <div className="menu_header">
-            <h1 id="main_title">Exception;</h1>
+            <div className="main_title">Exception;</div>
 
             <ul className="category">
                 <li onClick={() => sortProduct("All")}>All</li>
