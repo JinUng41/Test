@@ -6,7 +6,7 @@ export const Product = ({product}) => {
     return ( product && (
         <div className="product">
             <Link to={`/product/${id}`}>
-                <div className="productImg"><img src={image} /></div>
+                <div className="productImg"><img src={image} alt=""/></div>
             </Link>
             <div className="productName">{name}</div>
             <div className="productPrice">{price}원</div>
