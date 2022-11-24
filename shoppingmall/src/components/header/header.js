@@ -5,22 +5,25 @@ import { useEffect } from "react";
 import { getProducts } from "../../service/fetcher";
 
 const Header = ({convertMenu, products, setProducts}) => {
-    const sortProduct = (type) => {
+    let sortProduct = (type) => {
         if (type === "All") {
-            const newProduct = [...products];
+            let newProduct = [...products];
             setProducts(newProduct);
         } 
         else if (type === "Outer") {
-            const newProduct = [...products];
-            const result = newProduct.filter(product => product.category==="Outer")
+            let newProduct = [...products];
+            let result = newProduct.filter(product => product.category==="Outer")
             setProducts(result);
             console.log(result);
+            console.log(newProduct);
         } 
         else if (type === "Top") {
-            const newProduct = [...products];
-            const result = newProduct.filter(product => product.category==="Top")
+            let newProduct = [...products];
+            let result = newProduct.filter(product => product.category==="Top")
             setProducts(result);
             console.log(result);
+            console.log(newProduct);
+            console.log(...products);
 
         } 
         else if (type === "Bottom") {
@@ -28,7 +31,6 @@ const Header = ({convertMenu, products, setProducts}) => {
             const result = newProduct.filter(product => product.category==="Bottom")
             setProducts(result);
             console.log(result);
-
         } 
         else if (type === "Acc") {
             const newProduct = [...products];
