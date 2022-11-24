@@ -1,8 +1,9 @@
 import { Main } from "../components/main/main";
 
-const MainAll = ({products, setProducts}) => {
+const MainAll = ({convertPrice, products, setProducts}) => {
     return (
         <Main
+            convertPrice = {convertPrice}
             products = {products}
             setProducts = {setProducts}
         />
