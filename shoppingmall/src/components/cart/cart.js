@@ -3,6 +3,7 @@ import { useState } from "react";
 import { CartHeader } from "./cart_header/cart_header";
 import { CartList } from "./cart_list/cart_list";
 import { CartTotal } from "./cart_total/cart_total";
+import Header from "../header/header";
 
 export const Cart = ({ cart, setCart, convertPrice }) => {
   const [total, setTotal] = useState(0);
@@ -67,6 +68,7 @@ export const Cart = ({ cart, setCart, convertPrice }) => {
 
   return (
     <>
+      <Header/>
       <CartHeader isAllSelected={isAllSelected} allSelected={allSelected} />
       {cart.length !== 0 ? (
         cart.map((cart) => {
