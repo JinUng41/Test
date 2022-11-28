@@ -2,6 +2,8 @@
 
 ## ShoppingMall : Exception;
 
+<br>
+
 ### 실행 환경 설명
 - 상품 정보는 '/public/products/products.json'에 저장
   - 리액트의 axios 라이브러리를 사용하여 정보를 가져온다.
