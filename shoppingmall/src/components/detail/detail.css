@@ -18,13 +18,11 @@
 .detail_section .productImg {
     width: 100%;
     height: 100%;
-    border-radius: 10px;
 }
 
-.productImg img {
+.detail_section .productImg img {
     width: 100%;
     height: 100%;
-    border-radius: 10px;
 }
 
 .detail_section .productInfo {
