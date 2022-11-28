@@ -1,4 +1,4 @@
-import "./cart_total.css";
+// import "./cart_total.css";
 import { useEffect } from "react";
 
 export const CartTotal = ({ total, setTotal, cart, convertPrice, checked }) => {

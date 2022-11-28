@@ -85,7 +85,7 @@ const Header = ({products, setProducts}) => {
             <div className="main_title" onClick={() => sortProduct("All")}>Exception;</div>
             </Link>
             <ul className="category">
-                <Link to={`/main`}>
+                <Link style={{textDecoration: "none", color: "black"}} to={`/main`}>
                 <li><span onClick={() => sortProduct("All")}>All</span></li>
                 </Link>
                 <li><span onClick={() => sortProduct("Outer")}>Outer</span></li>
@@ -95,7 +95,7 @@ const Header = ({products, setProducts}) => {
             </ul>
 
             <ul className="personal">
-                <Link to={`/cart`}>
+                <Link style={{textDecoration: "none", color: "black"}} to={`/cart`}>
                     <li>Cart</li>
                 </Link>
                 <li>Order</li>
