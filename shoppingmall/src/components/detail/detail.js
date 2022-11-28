@@ -113,8 +113,8 @@ return (
             </div>
 
             <div className="totalInfo">
-                <span className="totalCount1">
-                총 수량 <span className="totalCount2">{count}개</span>
+                <span className="total">
+                총 수량 <span className="totalCount">{count}개</span>
                 </span>
                 <span className="totalPrice">
                   {convertPrice(product.price * count)}

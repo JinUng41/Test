@@ -189,7 +189,7 @@
     color: black;
 } */
 
-.detail_section .btn {
+.btn {
     display: flex;
     align-items: center;
     justify-content: space-between;
