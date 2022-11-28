@@ -1,21 +1,21 @@
-.main {
+.detail_div {
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    /* margin-top: 130px; */
+    padding: 100px;
 }
 
-.product {
+.detail_section {
     width: 600px;
-    height: 600px;
     display: flex;
     flex-direction: column;
     margin-right: 50px;
 }
 
-.productImg {
+.detail_section .productImg {
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -27,7 +27,7 @@
     border-radius: 10px;
 }
 
-.productInfo {
+.detail_section .productInfo {
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -35,6 +35,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    align-self: center;
 }
 
 .productInfo .productName {
@@ -42,13 +43,14 @@
     line-height: 45px;
     color: #000000;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .productInfo .price {
     font-size: 36px;
     line-height: 45px;
     color: #000000;
-    margin-bottom: 138px;
+    margin-bottom: 50px;
 }
 
 .productInfo .unit {
@@ -116,7 +118,7 @@
 .amount .plus {
     position: absolute;
     width: 20px;
-    height: 40px;
+    height: 20px;
     top: 50%;
     right: 14px;
     transform: translateY(-50%);
@@ -216,19 +218,20 @@
     margin-top: 140px;
 }
 
-.detail {
+.detail_section .detail {
     border: 1.5px solid black;
-    font-size: 12px;
+    font-size: 15px;
     display: block;
     padding: 20px;
+    white-space: normal; /*강제 줄바꿈 코드 -> 세부사항이 길 때 블록 안에 다 들어오게끔,,*/
 }
 
 @media (max-width: 1440px) {
-    .main {
+    .detail_div {
     flex-direction: column;
     }
 
-    .product {
+    .detail_section {
     width: 100%;
     margin: 0;
     padding: 20px;
@@ -279,4 +282,5 @@
     .sum {
     display: block;
     }
+
 }

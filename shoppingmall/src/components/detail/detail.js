@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getProducts } from "../../service/fetcher";
+import "./detail.css"
+import Header from '../header/header';
 
 export const Detail = ({ convertPrice, cart, setCart }) => {
     const { id } = useParams();
@@ -58,13 +60,14 @@ useEffect(() => {
 return (
     product && (
     <>
-        <main className="main">
-        <section className="product">
+        <Header/>
+        <div className="detail_div">
+        <section className="detail_section">
             <div className="productImg">
             <img src={product.image} alt="product" />
             </div>
         </section>
-        <section className="product">
+        <section className="detail_section">
             <div className="productInfo">
             <p className="productName">{product.name}</p>
             <span className="price">
@@ -132,7 +135,7 @@ return (
             </button>
             </div>
         </section>
-        </main>
+        </div>
     </>
     )
     );
