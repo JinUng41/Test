@@ -3,6 +3,7 @@ import { useEffect } from "react";
 //import {Fragment} from 'react';
 //import {Product} from "../product/product"
 import { getProducts } from "../../service/fetcher";
+import { Link } from 'react-router-dom';
 
 const Header = ({products, setProducts}) => {
     var newProduct=[];
@@ -80,9 +81,13 @@ const Header = ({products, setProducts}) => {
 
     return ( 
         <div className="menu_header">
+            <Link to={`/main`}>
             <div className="main_title" onClick={() => sortProduct("All")}>Exception;</div>
+            </Link>
             <ul className="category">
+                <Link to={`/main`}>
                 <li><span onClick={() => sortProduct("All")}>All</span></li>
+                </Link>
                 <li><span onClick={() => sortProduct("Outer")}>Outer</span></li>
                 <li><span onClick={() => sortProduct("Top")}>Top</span></li>
                 <li><span onClick={() => sortProduct("Bottom")}>Bottom</span></li>
