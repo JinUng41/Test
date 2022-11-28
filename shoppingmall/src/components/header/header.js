@@ -95,7 +95,7 @@ const Header = ({products, setProducts}) => {
             </ul>
 
             <ul className="personal">
-                <li>Cart</li>
+                <li><Link to={`/cart`}>Cart</Link></li>
                 <li>Order</li>
                 <li>Login</li>
             </ul>    

@@ -5,6 +5,7 @@ import { useState } from "react";
 import Start from "./components/start/start";
 import MainAll from "./pages/mainAll";
 import ProductAll from './pages/productAll';
+import CartAll from './pages/cartAll';
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -23,13 +24,11 @@ function App() {
       <Route 
         path="/product/:id" 
         element={
-          <ProductAll 
-            convertPrice={convertPrice} 
-            cart={cart} 
-            setCart={setCart}
-          />
-        } 
-      />
+          <ProductAll convertPrice={convertPrice} cart={cart} setCart={setCart}/>
+        } />
+      <Route path="/cart" element={
+            <CartAll cart={cart} setCart={setCart} convertPrice={convertPrice} />
+          } />
     </Routes>
   ) 
 }
