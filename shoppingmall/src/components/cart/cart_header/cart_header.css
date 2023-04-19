@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .cart_title {
   display: inline-block;
   font : normal normal 30px Times New Roman;
@@ -31,3 +32,40 @@
   background: black;
   border: none;
 }
+=======
+  .cart_title {
+    display: inline-block;
+    font : normal normal 30px Times New Roman;
+  }
+  .cart_checkbox {
+    display: inline-block;
+    width: 30px;
+  }
+  .cart_tab {
+    max-width: 1280px;
+    height: 60px;
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    padding-top: 52px;
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+    margin-left: 76px;
+  }
+  
+  .cart_tab input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    appearance: none;
+    cursor: pointer;
+  }
+  
+  .cart_tab input[type="checkbox"]:checked {
+    background: black;
+    border: none;
+  }
+  
+>>>>>>> Stashed changes
